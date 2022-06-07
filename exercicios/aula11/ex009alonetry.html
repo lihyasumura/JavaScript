@@ -15,11 +15,11 @@
       function verificar() {
         var txtn = window.document.querySelector("input#txtnac");
         var res = window.document.querySelector("div#res");
-        res.innerHTML = `<p>Seu país de origem é ${txtn.value}.</p>`;
+        res.innerHTML = `<p>Seu país de origem é <strong>${txtn.value}</strong>.</p>`;
         if (txtn.value == "Brasil") {
-          res.innerHTML += `<p>Você é brasileiro!</p>`;
+          res.innerHTML += `<p>Você é <strong>brasileiro</strong>!</p>`;
         } else {
-          res.innerHTML += `<p>Você é estrangeiro!</p>`;
+          res.innerHTML += `<p>Você é <strong>estrangeiro</strong>!</p>`;
         }
       }
     </script>
