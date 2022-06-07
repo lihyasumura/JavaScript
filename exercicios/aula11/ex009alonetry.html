@@ -16,7 +16,7 @@
         var txtn = window.document.querySelector("input#txtnac");
         var res = window.document.querySelector("div#res");
         res.innerHTML = `<p>Seu país de origem é <strong>${txtn.value}</strong>.</p>`;
-        if (txtn.value == "Brasil") {
+        if (txtn.value == "Brasil" || txtn.value == "brasil") {
           res.innerHTML += `<p>Você é <strong>brasileiro</strong>!</p>`;
         } else {
           res.innerHTML += `<p>Você é <strong>estrangeiro</strong>!</p>`;
