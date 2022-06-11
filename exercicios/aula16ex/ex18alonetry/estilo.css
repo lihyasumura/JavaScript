@@ -18,14 +18,12 @@ section {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
 }
 
+select {
+    width: 200px;
+}
+
 footer {
     color: white;
     text-align: center;
     font-style: italic;
-}
-
-select {
-    width: 200px;
-    height: 190px;
-    padding-top: 5px;
 }
