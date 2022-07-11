@@ -17,9 +17,9 @@ function converter() {
     res.innerHTML = 
     `<strong><p>A distância de ${distancia.toLocaleString()} metros, corresponde a...</strong></p>` +
     `<p>${kmo} quilômetros (Km).` +
-    `<p>${hmo} quilômetros (Hm).` +
-    `<p>${damo} quilômetros (Dam).` +
-    `<p>${dmo} quilômetros (dm).` +
-    `<p>${cmo} quilômetros (cm).` +
-    `<p>${mmo} quilômetros (mm).`
+    `<p>${hmo} hectômetro (Hm).` +
+    `<p>${damo} decâmetro (Dam).` +
+    `<p>${dmo} decímetro (dm).` +
+    `<p>${cmo} centímetro (cm).` +
+    `<p>${mmo} milímetro (mm).`
 }
